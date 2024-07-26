@@ -1,0 +1,31 @@
+.container{
+    background-color: #002E69;
+    width: 100%;
+  
+}
+
+.socials{
+    display: flex;
+    justify-content: center;   
+}
+
+
+.copyRight{
+    text-align: center;
+}
+.circle{
+    margin: 50px 20px ;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    color: #002E69;
+    text-decoration: none;
+}
+.circle:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}

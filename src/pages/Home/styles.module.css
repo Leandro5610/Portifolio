@@ -1,11 +1,186 @@
-.container{
-    width: 100vw;
-    height: 100vh;
-    padding: 0;
+*{
     margin: 0;
-    border: none;
-    background-color: #242424;
+    padding: 0;
+    box-sizing: border-box;
 }
-body{
-    margin:  0;
+
+@font-face {
+    font-family: inter;
+    src: url(../../assets/fonts/Inter/static/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: barlow;
+    src: url(../../assets/fonts/Barlow_Condensed/BarlowCondensed-Regular.ttf);
+}
+@font-face {
+    font-family: bebas;
+    src: url(../../assets/fonts/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    padding: 0px 120px;
+    background-color:#FAFAFA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.nav a{
+    color: #130C05;
+    text-decoration: none;
+  
+}
+.nav a{
+    margin: 0 10px;
+    text-decoration: none;
+    position: relative;
+    font-size: 1.8cap;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+
+.nav a::after{
+    content: "";
+    position: absolute;
+    border-radius: 20px;
+    background-color: #002E69;
+    height: 4px;
+    width: 0%;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.nav a:hover::after{
+    width: 100%;
+}
+
+.container{
+    font-family: inter;
+    height: 100vh;
+    
+}
+
+.pages{
+    display: flex;
+    background-color:white;
+    color: black;
+    font-weight: 700px;
+}
+
+
+.dev{
+    font-size: 3.5cap;
+    height: auto;
+    width: auto;
+    margin: 200px 100px;
+   
+}
+.dev h1{
+    color: black;
+}
+.dev span, h2{
+    color:#002E69 ;
+}
+.dev img{
+    margin: 40px 10PX;
+}
+.dev span{
+    position: relative;
+}
+.dev span::before{
+    content: 'Leandro';
+    animation: words 20s infinite;
+}
+.dev span::after{
+    content: "";
+    position: absolute;
+    width: calc(100% + 12px);
+    height: 100%;
+    background-color: white;
+    border-left:2px solid #002E69;
+    right: -15px;
+    animation: cursor .8s infinite, typing 20s steps(14) infinite;
+}
+.socialLink:hover{
+    transition: 0.5s;
+    transform: translateY(-10px);
+}
+.photo{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    border-radius: 20px;
+    margin-top: 15%;
+    margin-left:10%;
+}
+
+.aboutMe{
+    margin-top: 5%;
+    background-color: white;      
+}
+.aboutMe h1{
+    text-align: center;
+    margin-top: 1%;
+    font-size: 3.5cap;
+}
+.aboutMe p{
+
+    text-align: center;
+    margin: 7%;
+    font-size: 3.2cap;
+}
+.footer{
+    height: auto;
+}
+
+@keyframes cursor{
+    to{
+        border-left:2px solid white;
+
+    }
+}
+
+@keyframes words{
+    0%,20%{
+        content: "Leandro";
+        font-family: inter;
+    }
+    21%,40%{
+        content: "Leandro";
+        font-family: barlow;
+    }
+    41%,60%{
+        content: "Leandro";
+        font-family: 'Times New Roman', Times, serif;
+    }
+    61%,80%{
+        content: "Leandro";
+        font-family: bebas;
+    }
+    81%,100%{
+        content: "Leandro";
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+
+@keyframes typing{
+   10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95%{
+        width: 0;
+   } 
+   5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85%{
+    width: calc(100%  + 8px);
+   }
+}
+
+@keyframes fade-inout{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
 }

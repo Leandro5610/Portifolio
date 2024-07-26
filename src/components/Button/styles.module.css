@@ -1,0 +1,22 @@
+.butao{
+    width: 130px;
+    height:50px;
+    display: flex;
+    padding: 10px;
+    font-size: 1.4cap;
+    align-items: center;
+    border-radius: 15px;
+    background-color: #002E69;
+    color: #ffff;
+    border-style: none;
+}
+.butao:hover{
+    background-color: #fff;
+    transition: 0.5s;
+    color: #002E69;
+}
+
+.icon {
+    margin-right: 8px; 
+    
+  }
