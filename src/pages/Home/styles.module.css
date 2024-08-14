@@ -86,7 +86,7 @@ header{
 .dev h1{
     color: black;
 }
-.dev span, h2{
+.dev span, h3{
     color:#002E69 ;
 }
 .dev img{
@@ -114,13 +114,12 @@ header{
     transform: translateY(-10px);
 }
 .photo{
-    width: 300px;
-    height: 300px;
-    background-color: blue;
-    border-radius: 20px;
-    margin-top: 15%;
-    margin-left:10%;
+    position: relative;
+    margin-top: 5%;
+    margin-right: -5%;
+    animation: flutuar 2s ease-in-out infinite alternate;
 }
+
 
 .aboutMe{
     margin-top: 5%;
@@ -183,4 +182,12 @@ header{
 @keyframes fade-inout{
     0%{opacity: 0;}
     100%{opacity: 1;}
+}
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
 }

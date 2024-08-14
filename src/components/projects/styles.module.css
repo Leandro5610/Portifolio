@@ -73,4 +73,21 @@
 }
 .tecnologys{
     float: right;
+   
+}
+.tecnologys img{
+    margin-right: 10px;
+}
+.integrantes {
+  margin-bottom: 10px;
+}
+.integrantes a{
+   color: black;
+}
+.integrantes a:hover{
+    color: #002E69;
+}
+.tecnologys img:hover{
+    transition: 0.5s;
+    transform: translateY(-10px);
 }
