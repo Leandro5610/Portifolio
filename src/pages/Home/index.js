@@ -65,13 +65,13 @@ export default function Test() {
                 <div className={styles.aboutMe}>
                     <h1>SOBRE</h1>
                     <p>
-                    Olá, sou Leandro Rocha Viana, tenho 20 anos, sou técnico em desenvolvimento de sistemas e, 
+                    Olá, sou Leandro Rocha Viana, tenho 20 anos, sou técnico em Desenvolvimento de Sistemas e, 
                     atualmente, estou cursando o ensino superior na Universidade São Judas Tadeu - Butantã. 
-                    Tenho experiência em desenvolvimento frontend, backend e mobile, e tenho trabalhado com tecnologias 
+                    Tenho experiência em desenvolvimento frontend, backend e mobile, e trabalho com tecnologias 
                     como Java, JavaScript, React, HTML, CSS, React Native e bancos de dados relacionais. 
-                    Tenho grande interesse por desenvolvimento backend, frontend, mobile, 
-                    Inteligência Artificial e busco constantemente aprender e me atualizar 
-                    sobre as novas tendências e tecnologias no mundo da programação.
+                    Tenho grande interesse por desenvolvimento backend, frontend, mobile e Inteligência Artificial, 
+                    e estou constantemente buscando aprender e me atualizar sobre as novas tendências e tecnologias 
+                    no mundo da programação.
                     </p>
                 </div>
             </section>

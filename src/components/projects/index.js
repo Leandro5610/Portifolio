@@ -28,10 +28,12 @@ export default function projects(){
                 <div className={styles.projectText}>
                 <h1>Agenda de Estudos</h1>
                     <p>
-                        Este é um projeto desenvolvido no framework React usando TypeScript. Ele é uma aplicação que permite ao usuário organizar
-                        seu tempo de estudo. Usando a aplicação, ele pode definir o que vai ser estudado no dia e quanto tempo pretende estudar,
-                        auxiliando nos estudos para melhor concentração e comprometimento. É semelhante à técnica de Pomodoro, que ajuda na 
-                        produtividade e foco durante os estudos.
+                    Este é um projeto desenvolvido no framework React, utilizando TypeScript.
+                     Trata-se de uma aplicação que permite ao usuário organizar seu tempo de estudo.
+                      Com a aplicação, é possível definir o que será estudado no dia e quanto tempo se 
+                      pretende dedicar a cada atividade, auxiliando nos estudos para melhorar a concentração 
+                      e o comprometimento. A ferramenta é semelhante à técnica Pomodoro, que ajuda a aumentar a 
+                      produtividade e o foco durante os estudos.
                     </p>
                     <a href='https://github.com/Leandro5610/Agenda_Estudos_Deploy' target='blank' className={styles.buttonContainer}><Button Icon ={GitHubIcon} text={"GitHub"}/></a>
                     <a href='https://leandro5610.github.io/Agenda_Estudos_Deploy/' target='blank' className={styles.buttonContainer}><Button Icon={CodeIcon} text={"Deploy"}/></a>
@@ -50,10 +52,13 @@ export default function projects(){
                 <div className={styles.projectText}>
                 <h1>Sistema de gerenciamento de armazém (WMS)</h1>
                     <p>
-                        Esse foi trabalho conclusivo de curso, com intuito de auxiliar os alunos do curso de logistica 
-                        para terem um experiência imersiva sobre o as etapas do WMS. Nesse Sistemas os alunos tem ambiente imersivo e 
-                        didatico como parte pratica no curso de logistica, algumas funções ofercidas são Armazenagem de Produtos, Realização de Pedidos,
-                        entre outras.
+                    Este foi um trabalho de conclusão de curso, com o intuito de 
+                    auxiliar os alunos do curso de Logística a terem uma experiência
+                     imersiva sobre as etapas do WMS. Nesse sistema, os alunos contam 
+                     com um ambiente imersivo e didático, que faz parte da prática no 
+                     curso de Logística. Algumas das funções oferecidas são Armazenagem 
+                     de Produtos, Realização de Pedidos, entre outras. Este projeto foi 
+                     desenvolvido por uma equipe de 7 integrantes.
                         <br></br>
                         Esse projeto foi feito em uma equipe de 7 intregantes:                        
                     </p>
