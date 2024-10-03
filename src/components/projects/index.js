@@ -13,8 +13,15 @@ import CssIcon from '../../assets/CSS3.svg'
 import JavaIcon from '../../assets/Java.svg'
 import ReactIcon from '../../assets/React.svg'
 import HtmlIcon from '../../assets/Html.svg'
+import NextIcon from '../../assets/NEXT.svg'
+import TailWindCss from '../../assets/TailWindCss.svg'
+import Promptopia from '../../assets/Promptopia.jpg'
+
+
 import ProjectAgendaLogo from '../../assets/Projeto_Agenda_React.jpg'
+
 export default function projects(){
+    
     
     const projectLink1 ='https://leandro5610.github.io/Agenda_Estudos_Deploy/'
     return(
@@ -89,7 +96,31 @@ export default function projects(){
                 </div>
                 
                         
+            </div><div className={styles.projects}>
+                <div className={styles.content}>
+                <img src={Promptopia} height={400} width={600}></img>
+                </div>
+                <div className={styles.projectText}>
+                <h1>Promptopia</h1>
+                    <p>
+                        Este projeto é uma ferramenta de código aberto para o mundo descobrir, criar e compartilhar prompts criativos.
+                        No decorrer do dia a dia, as pessoas estão utilizando cada vez mais o ChatGPT. Dessa forma, o 
+                        Promptopia serve como uma lista de todos os prompts que você pode usar imediatamente durante seu uso do ChatGPT.               
+                    </p>
+                   
+                    <a href='https://github.com/Leandro5610/promptopia_1.0'target='_blank' className={styles.buttonContainer}><Button   Icon ={GitHubIcon} text={"GitHub"}/></a>
+                    <a href='https://promptopia-1-0-avb1xs70y-leandro-rocha-vianas-projects.vercel.app/'  target='_blank' className={styles.buttonContainer}><Button Icon={CodeIcon} text={"Deploy"}/></a>
+                    <span className={styles.tecnologys}>
+                        <img src={NextIcon} height={50} width={50}/>
+                        <img src={TailWindCss} height={50} width={50}/>
+                        <img src={ReactIcon} height={50} width={50}/>
+                        <img src={jsLogo} height={50} width={50}/>
+                    </span>
+                </div>
+                
+                        
             </div>
+            
           
         </div>
         /*<div className={styles.container} >
